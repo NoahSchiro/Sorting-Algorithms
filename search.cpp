@@ -26,8 +26,6 @@ int binarySearch(std::vector<int> v, int value) {
 
         middle = (first + last) / 2;
 
-        std::cout << middle << " ";
-
         if (v[middle] == value) {
 
             found = true;
